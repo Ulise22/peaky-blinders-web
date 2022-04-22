@@ -1,0 +1,28 @@
+.season {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.season__texts__title {
+    color: #fff;
+}
+
+.season__texts__ep {
+    color: #ddd;
+    padding: 5px;
+}
+
+.season__img {
+    width: 300px;
+}
+
+@media screen and (max-width: 520px) {
+    .season {
+        flex-direction: column-reverse;
+    }
+
+    .season__img {
+        width: 100%;
+    }
+}

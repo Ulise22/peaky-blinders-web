@@ -1,0 +1,41 @@
+.tommy {
+    background: #222;
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.tommy__image__img {
+    width: 500px;
+}
+
+.tommy__container {
+    display: flex;
+    gap: 20px;
+}
+
+.tommy__texts {
+    padding: 20px;
+}
+
+.tommy__texts__subtitle {
+    color: #fff;
+}
+
+.tommy__texts__p {
+    color: #ddd;
+}
+
+@media screen and (max-width: 960px) {
+    .tommy {
+        padding: 0;
+        padding-bottom: 30px;
+    }
+
+    .tommy__container {
+        flex-wrap: wrap;
+    }
+
+    .tommy__image__img {
+        width: 100%;
+    }
+}
